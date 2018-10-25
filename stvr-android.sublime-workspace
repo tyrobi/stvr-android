@@ -1,0 +1,1626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"overflow",
+				"overflow-x\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"enc",
+				"encoding〔argument〕"
+			],
+			[
+				"getho",
+				"gethostbyname〔function〕"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"port",
+				"port_specified〔variable〕"
+			],
+			[
+				"use",
+				"use_port〔argument〕"
+			],
+			[
+				"byte",
+				"byte_count〔argument〕"
+			],
+			[
+				"header",
+				"header_buffer〔variable〕"
+			],
+			[
+				"is",
+				"is_ip_addr〔function〕"
+			],
+			[
+				"ser",
+				"server_type"
+			],
+			[
+				"web",
+				"webpage〔variable〕"
+			],
+			[
+				"we",
+				"webpage〔variable〕"
+			],
+			[
+				"head",
+				"header_buffer〔variable〕"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"time",
+				"timeout〔variable〕"
+			],
+			[
+				"Ke",
+				"KeyboardInterrupt〔class〕"
+			],
+			[
+				"samp",
+				"sample_files/"
+			],
+			[
+				"connec",
+				"connection"
+			],
+			[
+				"get",
+				"get_nice_addr〔function〕"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"file",
+				"filepath〔variable〕"
+			],
+			[
+				"local",
+				"local_ip_address〔variable〕"
+			],
+			[
+				"def",
+				"defs\tMethod"
+			],
+			[
+				"d",
+				"d\tdisplay: ${1:block};"
+			],
+			[
+				"lgo",
+				"logos.html"
+			],
+			[
+				"logo",
+				"logos.html"
+			],
+			[
+				"ic",
+				"icon_sets.html"
+			],
+			[
+				"sit",
+				"site_map.html"
+			],
+			[
+				"con",
+				"contact.html"
+			],
+			[
+				"es",
+				"estore.html"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"list-s",
+				"list-style\tproperty"
+			],
+			[
+				"cu",
+				"custom_order.html"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"tab",
+				"table-layout\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"shou",
+				"shouldRenderEnemies"
+			],
+			[
+				"firing",
+				"firingTime"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"initi",
+				"intialized"
+			],
+			[
+				"image",
+				"image-rendering\tproperty"
+			],
+			[
+				"spac",
+				"space_invade/"
+			],
+			[
+				"title",
+				"title_card"
+			],
+			[
+				"level",
+				"levelMessages"
+			],
+			[
+				"mess",
+				"messageText"
+			],
+			[
+				"ima",
+				"image_cache"
+			],
+			[
+				"update",
+				"updatePixels"
+			],
+			[
+				"create",
+				"createNewText"
+			],
+			[
+				"cache",
+				"cacheText\t(config.js)"
+			],
+			[
+				"TEXT",
+				"TEXT_PER_ROW"
+			],
+			[
+				"Tex",
+				"TEXT"
+			],
+			[
+				"shield",
+				"shieldCooldown"
+			],
+			[
+				"shie",
+				"shieldCooldown"
+			],
+			[
+				"edge",
+				"edgeDetected"
+			],
+			[
+				"curr",
+				"currentLevel"
+			],
+			[
+				"fire",
+				"fireKeyDown"
+			],
+			[
+				"explo",
+				"explosion\t(sketch.js)"
+			],
+			[
+				"upda",
+				"updateSpeed"
+			],
+			[
+				"frame",
+				"frameSpeed"
+			],
+			[
+				"pro",
+				"projectile"
+			],
+			[
+				"anim",
+				"animCounter"
+			],
+			[
+				"del",
+				"deltaX"
+			],
+			[
+				"delt",
+				"deltaY"
+			],
+			[
+				"delta",
+				"deltaX"
+			],
+			[
+				"im",
+				"image_cache"
+			],
+			[
+				"window",
+				"windowResized"
+			],
+			[
+				"wind",
+				"windowResized"
+			],
+			[
+				"getY",
+				"getYFlippedImage"
+			],
+			[
+				"meta",
+				"meta\t(index.html)"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"GL_NEAREST_",
+				"GL_NEAREST_MIPMAP_NEAREST\t(plane.hpp)"
+			],
+			[
+				"printo",
+				"printout.html"
+			],
+			[
+				"amo",
+				"amountPaid"
+			],
+			[
+				"tip",
+				"tipNumberField"
+			],
+			[
+				"poli",
+				"policeFileNumber"
+			],
+			[
+				"print",
+				"printout"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"table",
+				"table-active\t(CrimeStoppersPointCalculator.html)"
+			],
+			[
+				"has",
+				"has-error"
+			],
+			[
+				"bonus",
+				"bonusPointsExplanation"
+			],
+			[
+				"caller",
+				"callerRisk"
+			],
+			[
+				"call",
+				"callerRisk"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"calcula",
+				"calculatePointTotal"
+			],
+			[
+				"reset",
+				"resetButton"
+			],
+			[
+				"crim",
+				"crimeNumberSelect"
+			],
+			[
+				"primaryT",
+				"primaryTableBody"
+			],
+			[
+				"wait",
+				"waitingRoom"
+			],
+			[
+				"num",
+				"numElements"
+			],
+			[
+				"mouseS",
+				"mouseControls"
+			],
+			[
+				"boat",
+				"boatView"
+			],
+			[
+				"curent",
+				"currentWindowSize"
+			],
+			[
+				"GL_TRIA",
+				"GL_TRIANGLE_STRIP"
+			],
+			[
+				"MODEL",
+				"MODEL_TYPE"
+			],
+			[
+				"Mode",
+				"Models"
+			],
+			[
+				"CURR",
+				"currentModel"
+			],
+			[
+				"GL_LIG",
+				"GL_LIGHT0"
+			],
+			[
+				"oce",
+				"oceanPos"
+			],
+			[
+				"curre",
+				"currentID"
+			],
+			[
+				"mounta",
+				"MOUNTAIN_COLORS"
+			],
+			[
+				"MOU",
+				"MOUNTAIN"
+			],
+			[
+				"SUR",
+				"surfaceType"
+			],
+			[
+				"MO",
+				"MOUNTAIN"
+			],
+			[
+				"Lis",
+				"listID"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"draw",
+				"drawMap"
+			],
+			[
+				"tre",
+				"trueHeight"
+			],
+			[
+				"true",
+				"trueHeight"
+			],
+			[
+				"WAVE",
+				"WAVE_GRADIENT"
+			],
+			[
+				"glColor",
+				"glColor3f\t(FlightSim.cpp)"
+			],
+			[
+				"smoo",
+				"smoothLerp"
+			],
+			[
+				"hei",
+				"heightMap"
+			],
+			[
+				"dra",
+				"drawColor"
+			],
+			[
+				"out",
+				"outFile"
+			],
+			[
+				"levelO",
+				"levelorderTraverse\t(BinarySearchTree.cpp)"
+			],
+			[
+				"tree",
+				"treePtr"
+			],
+			[
+				"sala",
+				"salary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "stvr-android.sublime-project",
+			"settings":
+			{
+				"buffer_size": 158,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run OpenGL"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Build OpenGL"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					""
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Clean and Build"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Compile C++ Attributes"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Source"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Binary"
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++ Multifile.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run OpenGL"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Build OpenGL"
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run OpenGL"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run OpenGL"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					""
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Clean and Build"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Compile C++ Attributes"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Source"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Binary"
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run OpenGL"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run OpenGL"
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Multifile.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++ Multifile.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp_multi.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/cpp_multi.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp_multi.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp_multi.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/cpp_multi.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Fortran/build-systems/GFortran.sublime-build",
+					""
+				],
+				[
+					"Packages/Fortran/build-systems/GFortran.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Fortran/build-systems/GFortran.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R/R.sublime-build",
+					""
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					""
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Clean and Build"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Compile C++ Attributes"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Source"
+				],
+				[
+					"Packages/R-Box/support/R Package.sublime-build",
+					"Build Binary"
+				]
+			],
+			[
+				"Packages/R/R.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"openres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"linter rel",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"rv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"PackageRe",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"\tpacka",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Build With: Markdown"
+			],
+			[
+				"print",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				" package control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"control l",
+				"Package Control: List Packages"
+			],
+			[
+				"control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"expo",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"pre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 649.0
+	},
+	"console":
+	{
+		"height": 189.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/robin/Data/Projects/Unity/stvr-android/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/robin/Data/Projects/Unity/.gitignore",
+		"/C/Users/robin/Data/SMU/Data Comm/A03/Code/server/server.py",
+		"/C/Users/robin/Data/SMU/Data Comm/A03/Docs/DataCommA2.tex",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/contact.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/mission.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/css/desktop.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/contact_form.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/feedback.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/common/navbar.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/custom_order.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/common/header.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A06/pages/careers.html",
+		"/C/Users/robin/Data/SMU/Web Dev/_data/open_server.bat",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/products_services.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/css/desktop.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/filetypes.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/faq.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/site_map.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/my_business.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A03/Code/web_client.py",
+		"/C/Users/robin/Data/SMU/_Previous/Graphics/Assignment 3/Helpers/vector3.hpp",
+		"/C/Users/robin/Data/SMU/_Previous/Graphics/Assignment 3/FlightSim.cpp",
+		"/C/Users/robin/Data/SMU/_Previous/Graphics/Assignment 3/plane.hpp",
+		"/C/Users/robin/Data/SMU/_Previous/Graphics/Assignment 3/obj.hpp",
+		"/C/Users/robin/Data/SMU/_Previous/Graphics/Assignment 3/skybox.hpp",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/product_pages/banners.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/estore.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/css/tablet.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/common/header.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/product_pages/icon_sets.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/product_pages/logos.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/product_pages/spinners.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/contact.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/about.html",
+		"/C/Users/robin/Data/SMU/Data Comm/notes.md",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/common/navbar.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/css/mobile.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/css/tyobi.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/images/logo_animated.gif",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/careers.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/contact_form.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/custom_order.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/mission.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A05/pages/programs.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Docs/DataCommA2.tex",
+		"/C/Users/robin/.ssh/id_rsa",
+		"/C/Users/robin/Data/Projects/Unity/stvr-android/gitignore",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/main.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Docs/DataCommA2.log",
+		"/C/Users/robin/Data/SMU/_Previous/Numerical Software/A03/Docs/Assignment.tex",
+		"/C/Users/robin/Data/SMU/_Previous/Numerical Software/A04/Docs/Assignment.tex",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/server.py",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/product_pages/spinners.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/product_pages/logos.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/products_services.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/estore.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/contact.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/about.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/programs.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/mission.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/contact_form.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/product_pages/banners.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/product_pages/icon_sets.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/site_map.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/careers.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/faq.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/filetypes.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/my_business.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/common/logo.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/common/header.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/common/footer.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/common/navbar.html",
+		"/C/Users/robin/Data/SMU/VR/VR_AR_TylerRobinson_A2.tex",
+		"/C/Users/robin/Data/SMU/_Previous/Numerical Software/A05/Docs/Assignment.tex",
+		"/C/Users/robin/Data/SMU/_Previous/Operating Systems/A04/Docs/Assignment.tex",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/err.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/basic_socket/socket_client.py",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/basic_socket/socket_server.py",
+		"/C/Users/robin/Data/SMU/Web Dev/Snippets/spinner.js",
+		"/C/Users/robin/Data/SMU/Web Dev/Snippets/Spinner.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/index.html",
+		"/C/Users/robin/Data/Keyboard Profiles/reactive.Prf",
+		"/C/Users/robin/Data/SMU/0_Previous/Programming Languages/A03/TylerRobinsonA03.lsp",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/my_business1.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/css/tyobi.css",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/estore.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/custom_order.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/contact.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/product_pages/spinners.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/product_pages/logos.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/product_pages/icon_sets.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/product_pages/banners.html",
+		"/C/Users/robin/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/robin/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/about.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/my_business2.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/products_services.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/site_map.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/socket_server.py",
+		"/C/Users/robin/Data/SMU/Data Comm/A02/Code/socket_client.py",
+		"/C/Users/robin/Data/SMU/VR/notes.md",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/custom_order.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/css/tyobi.css",
+		"/C/Users/robin/Data/SMU/Web Dev/Start_SFTP.bat",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/products.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A01/Docs/DataCommA1.tex",
+		"/C/Users/robin/Data/SMU/Web Dev/A04/pages/products.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A02/my_business.html",
+		"/C/Users/robin/Data/SMU/Web Dev/A03/pages/product_pages/products.html",
+		"/C/Users/robin/Data/SMU/Web Dev/my_name.html",
+		"/C/Users/robin/Data/SMU/Web Dev/notes.md",
+		"/C/Users/robin/Data/SMU/Web Dev/my_name.txt",
+		"/C/Users/robin/Data/SMU/Web Dev/my_business.html",
+		"/C/Users/robin/Data/SMU/Web Dev/index.html",
+		"/C/Users/robin/Data/SMU/Data Comm/A01/DataCommA1.tex",
+		"/C/Users/robin/Data/SMU/0_Previous/Data Structures 2/A06/Docs/TylerRobinsonA6.tex",
+		"/C/Users/robin/Data/SMU/0_Previous/Graphics/Assignment 3/FlightSim.cpp",
+		"/C/Users/robin/Data/SMU/Web Dev/my_business.txt",
+		"/C/Users/robin/Data/Projects/OpenGL/FlightSim/FlightSim.cpp",
+		"/C/Users/robin/Data/SMU/0_Previous/Data Structures 2/A01/Exercise 1/TestSphere.cpp",
+		"/C/Users/robin/Data/SMU/0_Previous/Graphics/Assignment 3/skybox.hpp",
+		"/C/Users/robin/Data/SMU/Web Dev/my_info.txt",
+		"/C/Users/robin/Data/SMU/Web Dev/open_server.bat",
+		"/C/Users/robin/Data/SMU/Web Dev/open_server.sh",
+		"/C/Users/robin/Data/Apps/clink-1.0.0a1.823d84/clink.bat",
+		"/C/Users/robin/Data/Apps/clink_0.4.9/clink.lua",
+		"/C/Users/robin/Data/Apps/clink_0.4.9/clink.bat",
+		"/C/Users/robin/Data/Projects/Mood/light.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 155.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "stvr-android.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								158
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										157,
+										158
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 375.333333333,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 208.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 166.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 196.0
+	},
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 156.0
+	},
+	"output.markdown":
+	{
+		"height": 130.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "stvr-android.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\robin\\Data\\SMU\\Data Structures 2\\A02\\ToyBox.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
