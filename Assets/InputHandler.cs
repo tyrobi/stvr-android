@@ -29,7 +29,6 @@ public class InputHandler : MonoBehaviour {
     };
 
     private Vector3 GVRLookVector = new Vector3();
-    private Quaternion DevLookDir = new Quaternion();
     private Vector3 half = new Vector3(180f, 180f, 180f);
 
     private bool controllerConnected;
@@ -84,19 +83,19 @@ public class InputHandler : MonoBehaviour {
         return new Quaternion(q.x, q.y, -q.z, -q.w);
     }
 
-    private static string repr(Vector3 v) {
+    private static string Repr(Vector3 v) {
         return "[" + v.x + ", " + v.y + ", " + v.z + "]";
     }
 
-    private static float clamp(float val, float max) {
+    private static float Clamp(float val, float max) {
         if (val > 0)
             return (val < max)? val : max;
         else
             return (val > -max)? val : -max;
     }
 
-    private static Vector3 clamp(Vector3 v, float val) {
-        return new Vector3(clamp(v.x, val), clamp(v.y, val), clamp(v.z, val));
+    private static Vector3 Clamp(Vector3 v, float val) {
+        return new Vector3(Clamp(v.x, val), Clamp(v.y, val), Clamp(v.z, val));
     }
 
     public Vector3 GetRotationalInput()
@@ -106,8 +105,7 @@ public class InputHandler : MonoBehaviour {
         {
             Input.gyro.enabled = true;
             GVRLookVector = GetDeviceLookDir().eulerAngles;
-            Debug.Log("STVR: " + repr(GVRLookVector));
-            return clamp(GVRLookVector - half / 180f, 1.0f);
+            return Clamp(GVRLookVector - half, 1.0f);
         }
         controllerConnected = Input.GetJoystickNames().Length > 0;
         Vector3 pos = new Vector3();
