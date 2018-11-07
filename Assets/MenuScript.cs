@@ -3,25 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuScript : MonoBehaviour {
 
-    public GameObject startButton;
-    public GameObject exitButton;
+    public Button startButton;
+    public Button exitButton;
     public EventSystem events;
 
 	// Use this for initialization
 	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
+        exitButton.onClick.AddListener(ExitGame);
+        startButton.onClick.AddListener(LoadLevel);
 	}
 
     public static void ExitGame() {
-#if UNITY_EDITOR
+#if UNITY_EDITOR_WIN
         UnityEditor.EditorApplication.isPlaying = false;
 #else
         Application.Quit ();

@@ -263,8 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a518a21836f049d4bbdc89dbbcd67ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 1594137088}
-  exitButton: {fileID: 1092054927}
+  startButton: {fileID: 1594137090}
+  exitButton: {fileID: 1092054929}
   events: {fileID: 1717146256}
 --- !u!1 &1092054927
 GameObject:
