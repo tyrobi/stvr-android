@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShipMovement : MonoBehaviour {
 
-    public InputHandler playerInput;
+    private InputHandler playerInput;
     public GameObject player;
     public GameObject crosshairClose;
     public GameObject crosshairFar;
