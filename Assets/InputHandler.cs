@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InputHandler : MonoBehaviour {
 
     public GameObject GVRHeadset;
 
-    private Vector3 GVRLookVector = new Vector3();
-    private Vector3 half = new Vector3(180f, 180f, 180f);
+    public GameObject pausePanel;
+    public GameObject settingsPanel;
+    public GameObject pauseBackground;
+    private bool isPaused = false;
 
     private float GetAxis(string axis)
     {
@@ -48,5 +51,27 @@ public class InputHandler : MonoBehaviour {
         pos.y = Input.GetAxis("Horizontal");
 
         return pos;
+    }
+
+    public bool IsFiring()
+    {
+        return Input.GetAxisRaw("Fire1") >= 0.95f;
+    }
+
+    public void CheckPaused()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown("joystick button 7"))
+        {
+            SetPaused(!isPaused);
+        }
+    }
+
+    public void SetPaused(bool paused)
+    {
+        pausePanel.gameObject.SetActive(paused);
+        pauseBackground.gameObject.SetActive(paused);
+        settingsPanel.gameObject.SetActive(false);
+        Time.timeScale = (paused)? 0f : 1f;
+        isPaused = paused;
     }
 }
