@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnClick : MonoBehaviour {
 
-	public void LoadSceneByIndex(int index)
+    AudioSource aud;
+
+    public void LoadSceneByIndex(int index)
     {
+        aud = GetComponent<AudioSource>();
+	aud.Play();
         SceneManager.LoadScene(index);
     }
 }
