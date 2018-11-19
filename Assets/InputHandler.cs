@@ -54,7 +54,7 @@ public class InputHandler : MonoBehaviour {
 
     public bool IsFiring()
     {
-        return Input.GetAxisRaw("Fire1") >= 0.95f;
+        return Input.GetAxisRaw("Fire1") >= 0.95f || Input.GetKeyDown("joystick button 4");
     }
 
     public void CheckPaused()
