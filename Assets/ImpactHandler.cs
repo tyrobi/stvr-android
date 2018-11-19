@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ImpactHandler : MonoBehaviour {
 
@@ -8,14 +9,20 @@ public class ImpactHandler : MonoBehaviour {
     public int hitPoints = 1;
     public GameObject explosion;
     public GameObject preExplosion;
+    public Slider healthSlider;
 
-	private bool debounce = false;
+    private bool debounce = false;
 
 
     private void OnCollisionEnter(Collision col) {
         if (debounce) return;
         debounce = true;
         hitPoints--;
+	if (gameObject.name == "Player"){
+                healthSlider = GameObject.Find("/HUDCanvas/HealthUI/HealthSlider").GetComponent<Slider>();
+		healthSlider.value = hitPoints;
+	}
+	
         if (hitPoints <= 0)
         {
             GameObject e = Instantiate(explosion, col.contacts[0].point, Quaternion.identity);
