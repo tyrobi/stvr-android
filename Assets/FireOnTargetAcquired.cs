@@ -28,7 +28,7 @@ public class FireOnTargetAcquired : MonoBehaviour {
         Vector3 v = (anticipatedPos - transform.position);
         v.Normalize();
         Quaternion q = Quaternion.LookRotation(v) * Quaternion.Euler(Vector3.right * 90);
-        var mis = Instantiate(projectile, transform.position, q);
+        var mis = Instantiate(projectile, transform.position + 10 * transform.forward, q);
         mis.GetComponent<Rigidbody>().velocity = v * MISSILE_SPEED;
         Destroy(mis, 10.0f);
     }

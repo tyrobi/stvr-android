@@ -56,7 +56,7 @@ public class ShipMovement : MonoBehaviour {
     {
         AudioSource aud = GetComponent<AudioSource>();
         aud.Play();
-        var mis = Instantiate(missileBase, player.transform.position - 2 * player.transform.up, player.transform.rotation);
+        var mis = Instantiate(missileBase, player.transform.position - 15 * player.transform.up, player.transform.rotation * Quaternion.Euler(180 * Vector3.right));
         mis.GetComponent<Rigidbody>().velocity = -player.transform.up * MISSILE_SPEED;
         Destroy(mis, 10.0f);
         cooldown = COOL_TIME;

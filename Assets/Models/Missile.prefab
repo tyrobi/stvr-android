@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 23469113734888190}
   - component: {fileID: 199911427987729740}
   - component: {fileID: 198308298059290974}
+  - component: {fileID: 136505357084234234}
+  - component: {fileID: 114976062076944400}
   m_Layer: 0
   m_Name: Missile
   m_TagString: Untagged
@@ -38,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1535558051817366}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9.865135, y: 1.304253, z: 309.2187}
+  m_LocalPosition: {x: 43.409492, y: 1.056295, z: 474.89493}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,6 +105,31 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114976062076944400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535558051817366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2a6292da3c1d4da2b19ebcf381e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
+--- !u!136 &136505357084234234
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535558051817366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.27
+  m_Height: 4.767944
+  m_Direction: 1
+  m_Center: {x: 0.00000047683716, y: 1.0797188, z: 0.10086804}
 --- !u!198 &198308298059290974
 ParticleSystem:
   m_ObjectHideFlags: 1
