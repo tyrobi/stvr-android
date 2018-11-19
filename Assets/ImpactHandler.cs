@@ -11,25 +11,32 @@ public class ImpactHandler : MonoBehaviour {
     public GameObject preExplosion;
     public Slider healthSlider;
 
+    public GameObject losePanel;
+
     public bool isPlayer = false;
     private bool debounce = false;
 
+    private void OnDeath(Vector3 impact)
+    {
+        GameObject e = Instantiate(explosion, impact, Quaternion.identity);
+        Destroy(e, 3);
+        Destroy(gameObject, 0.05f);
+        if (isPlayer && losePanel != null && !losePanel.activeInHierarchy) {
+            losePanel.SetActive(true);
+        }
+    }
 
-    private void OnCollisionEnter(Collision col) {
+    private void OnCollisionEnter(Collision col)
+    {
         if (debounce) return;
         debounce = true;
         hitPoints--;
         if (isPlayer){
-            healthSlider = GameObject.Find("/HUDCanvas/HealthUI/HealthSlider").GetComponent<Slider>();
-		    healthSlider.value = hitPoints;
-	    }
-
+            healthSlider.value = hitPoints;
+        }
         if (hitPoints <= 0)
         {
-            GameObject e = Instantiate(explosion, col.contacts[0].point, Quaternion.identity);
-            Destroy(e, 3);
-            Destroy(gameObject, 0.05f);
-
+            OnDeath(col.contacts[0].point);
         }
         else if (preExplosion != null)
         {

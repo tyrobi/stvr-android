@@ -532,6 +532,7 @@ RectTransform:
   - {fileID: 1635559690}
   - {fileID: 2113730451}
   - {fileID: 183147750}
+  - {fileID: 1539689804}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -798,6 +799,7 @@ MonoBehaviour:
   explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   preExplosion: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 2}
   healthSlider: {fileID: 0}
+  losePanel: {fileID: 0}
   isPlayer: 0
 --- !u!114 &309590622
 MonoBehaviour:
@@ -812,8 +814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1535558051817366, guid: 78349e7145dbbe2498a5e0e88d9c4423, type: 2}
   player: {fileID: 546010995}
-  maxAngle: 32.39
-  cooldownTime: 4.7
+  maxAngle: 35.33
+  cooldownTime: 4.02
 --- !u!135 &309590623
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1054,7 +1056,8 @@ MonoBehaviour:
   hitPoints: 3
   explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   preExplosion: {fileID: 100000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
-  healthSlider: {fileID: 0}
+  healthSlider: {fileID: 479319802}
+  losePanel: {fileID: 2113730450}
   isPlayer: 1
 --- !u!136 &406104555
 CapsuleCollider:
@@ -1069,6 +1072,20 @@ CapsuleCollider:
   m_Height: 0.07547941
   m_Direction: 1
   m_Center: {x: 0, y: -0.016097434, z: 0.0062328083}
+--- !u!114 &406104556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406104551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae982ba42d1d395489526d2171fc5c04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: {fileID: 86719509}
+  winPanel: {fileID: 183147749}
+  enemyCounter: {fileID: 1687455280}
 --- !u!1001 &467313889
 Prefab:
   m_ObjectHideFlags: 0
@@ -1712,8 +1729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1535558051817366, guid: 78349e7145dbbe2498a5e0e88d9c4423, type: 2}
   player: {fileID: 546010995}
-  maxAngle: 32.39
-  cooldownTime: 4.7
+  maxAngle: 35.33
+  cooldownTime: 4.02
 --- !u!82 &572474565
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1824,6 +1841,7 @@ MonoBehaviour:
   explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   preExplosion: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 2}
   healthSlider: {fileID: 0}
+  losePanel: {fileID: 0}
   isPlayer: 0
 --- !u!135 &572474567
 SphereCollider:
@@ -8234,6 +8252,110 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386824144}
   m_CullTransparentMesh: 0
+--- !u!1 &1425882178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1425882179}
+  - component: {fileID: 1425882181}
+  - component: {fileID: 1425882180}
+  m_Layer: 5
+  m_Name: BackPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1425882179
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425882178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1687455282}
+  m_Father: {fileID: 1539689804}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1425882180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425882178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1425882181
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425882178}
+  m_CullTransparentMesh: 0
+--- !u!1 &1539689803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539689804}
+  m_Layer: 5
+  m_Name: EnemyCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1539689804
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1539689803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1425882179}
+  m_Father: {fileID: 180505441}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -75, y: 0}
+  m_SizeDelta: {x: 75, y: 60}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1544619185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1783375655012956, guid: c9ac5279162953c4e8261ff6d088f511,
@@ -8254,6 +8376,7 @@ MonoBehaviour:
   explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   preExplosion: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 2}
   healthSlider: {fileID: 0}
+  losePanel: {fileID: 0}
   isPlayer: 0
 --- !u!114 &1544619187
 MonoBehaviour:
@@ -8268,8 +8391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1535558051817366, guid: 78349e7145dbbe2498a5e0e88d9c4423, type: 2}
   player: {fileID: 546010995}
-  maxAngle: 32.39
-  cooldownTime: 4.7
+  maxAngle: 35.33
+  cooldownTime: 4.02
 --- !u!135 &1544619188
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8713,6 +8836,81 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9ac5279162953c4e8261ff6d088f511, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1687455279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687455282}
+  - component: {fileID: 1687455281}
+  - component: {fileID: 1687455280}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1687455280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687455279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 10
+--- !u!222 &1687455281
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687455279}
+  m_CullTransparentMesh: 0
+--- !u!224 &1687455282
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687455279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1425882179}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1699052460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9078,6 +9276,7 @@ MonoBehaviour:
   explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   preExplosion: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 2}
   healthSlider: {fileID: 0}
+  losePanel: {fileID: 0}
   isPlayer: 0
 --- !u!114 &1851252933
 MonoBehaviour:
@@ -9092,8 +9291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1535558051817366, guid: 78349e7145dbbe2498a5e0e88d9c4423, type: 2}
   player: {fileID: 546010995}
-  maxAngle: 32.39
-  cooldownTime: 4.7
+  maxAngle: 35.33
+  cooldownTime: 4.02
 --- !u!135 &1851252934
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -24,7 +24,7 @@ public class ShipMovement : MonoBehaviour {
     private float crosshairCloseDistance = 70f;
     private float crosshairFarDistance = 250f;
     private float cooldown = 0f;
-    private const float PLAYER_SPEED = 150.0f;
+    private const float PLAYER_SPEED = 125.0f;
     private const float MISSILE_SPEED = 350.0f;
     private const float COOL_TIME = 1.3f;
 

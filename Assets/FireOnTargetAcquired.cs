@@ -24,7 +24,8 @@ public class FireOnTargetAcquired : MonoBehaviour {
         AudioSource aud = GetComponent<AudioSource>();
         aud.Play();
         float dist = Vector3.Magnitude(player.position - transform.position);
-        Vector3 anticipatedPos = (player.position + (player.forward * dist / 5));
+        dist = Mathf.Clamp(dist, 1, 200);
+        Vector3 anticipatedPos = (player.position + (player.forward * dist / 15));
         Vector3 v = (anticipatedPos - transform.position);
         v.Normalize();
         Quaternion q = Quaternion.LookRotation(v) * Quaternion.Euler(Vector3.right * 90);
@@ -33,14 +34,7 @@ public class FireOnTargetAcquired : MonoBehaviour {
         Destroy(mis, 10.0f);
     }
 
-	void Start () {
-
-	}
-
-
 	void Update () {
-        float dist = Vector3.Magnitude(player.position - transform.position);
-        Vector3 anticipatedPos = (player.position + (player.forward * dist));
 		if (cooldown > 0)
             cooldown -= Time.deltaTime;
         else if (ShouldFire()) {
