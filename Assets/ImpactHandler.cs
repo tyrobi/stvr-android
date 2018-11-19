@@ -11,6 +11,7 @@ public class ImpactHandler : MonoBehaviour {
     public GameObject preExplosion;
     public Slider healthSlider;
 
+    public bool isPlayer = false;
     private bool debounce = false;
 
 
@@ -18,11 +19,11 @@ public class ImpactHandler : MonoBehaviour {
         if (debounce) return;
         debounce = true;
         hitPoints--;
-	if (gameObject.name == "Player"){
-                healthSlider = GameObject.Find("/HUDCanvas/HealthUI/HealthSlider").GetComponent<Slider>();
-		healthSlider.value = hitPoints;
-	}
-	
+        if (isPlayer){
+            healthSlider = GameObject.Find("/HUDCanvas/HealthUI/HealthSlider").GetComponent<Slider>();
+		    healthSlider.value = hitPoints;
+	    }
+
         if (hitPoints <= 0)
         {
             GameObject e = Instantiate(explosion, col.contacts[0].point, Quaternion.identity);
