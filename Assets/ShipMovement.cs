@@ -72,6 +72,11 @@ public class ShipMovement : MonoBehaviour {
     void Update ()
     {
         UpdateInputs();
+        if (player == null) {
+            Destroy(crosshairClose);
+            Destroy(crosshairFar);
+            return;
+        }
         player.transform.rotation = transform.rotation * Quaternion.Euler(new Vector3(-90f, 0f, 0f));
         player.transform.RotateAround(transform.position, transform.forward, -40f * roll);
         player.transform.RotateAround(transform.position, transform.right, -20f * pitch);
