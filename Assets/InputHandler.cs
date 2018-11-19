@@ -9,7 +9,6 @@ public class InputHandler : MonoBehaviour {
 
     public GameObject pausePanel;
     public GameObject settingsPanel;
-    public GameObject pauseBackground;
     private bool isPaused = false;
 
     private float GetAxis(string axis)
@@ -69,7 +68,6 @@ public class InputHandler : MonoBehaviour {
     public void SetPaused(bool paused)
     {
         pausePanel.gameObject.SetActive(paused);
-        pauseBackground.gameObject.SetActive(paused);
         settingsPanel.gameObject.SetActive(false);
         Time.timeScale = (paused)? 0f : 1f;
         isPaused = paused;

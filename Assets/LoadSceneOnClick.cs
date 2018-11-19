@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnClick : MonoBehaviour {
 
-    AudioSource aud;
+    public AudioSource aud;
 
     public void LoadSceneByIndex(int index)
     {
