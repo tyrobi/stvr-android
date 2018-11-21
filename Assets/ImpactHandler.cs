@@ -30,7 +30,10 @@ public class ImpactHandler : MonoBehaviour {
     {
         if (debounce) return;
         debounce = true;
-        hitPoints--;
+        if (col.gameObject.name == "Terrain")
+            hitPoints = 0;
+        else
+            hitPoints--;
         if (isPlayer){
             healthSlider.value = hitPoints;
         }
